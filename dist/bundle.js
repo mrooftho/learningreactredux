@@ -65,28 +65,36 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__upper__ = __webpack_require__(1);
 
 
-const app = document.getElementById('app');
+var _upper = __webpack_require__(1);
 
-app.innerHTML = 'Hello ' + Object(__WEBPACK_IMPORTED_MODULE_0__upper__["a" /* default */])('miro');
+var _upper2 = _interopRequireDefault(_upper);
 
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var app = document.getElementById('app');
+
+app.innerHTML = 'Hello ' + (0, _upper2.default)('miro');
 
 /***/ }),
 /* 1 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-function upper(name){
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+function upper(name) {
     return name.toUpperCase();
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (upper);
+exports.default = upper;
 
 /***/ })
 /******/ ]);
