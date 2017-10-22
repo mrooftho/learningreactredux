@@ -1,0 +1,22 @@
+{
+  "name": "learningreactredux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrooftho/learningreactredux.git"
+  },
+  "author": "miro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrooftho/learningreactredux/issues"
+  },
+  "homepage": "https://github.com/mrooftho/learningreactredux#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
