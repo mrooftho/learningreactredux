@@ -1,2 +1,2 @@
 # learningreactredux
-<p>Learning react, redux and webpack basics using https://codeburst.io/its-easy-setting-up-react-and-webpack-eb9ecaef5094</p>
+<p>Learning react, redux and webpack using npm create-react-app https://github.com/facebookincubator/create-react-app</p>
